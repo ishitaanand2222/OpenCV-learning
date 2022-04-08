@@ -66,10 +66,10 @@ Point getContours(Mat image)
 			//to draw from center not from edge
 			myPoint.y = boundRect[i].y;
 
-			drawContours(img, conPoly, i, Scalar(255, 0, 255), 2);
-			////bounding box
-			rectangle(img, boundRect[i].tl(), boundRect[i].br(), Scalar(0, 255, 6), 5);
-			
+			//drawContours(img, conPoly, i, Scalar(255, 0, 255), 2);
+			//////bounding box
+			//rectangle(img, boundRect[i].tl(), boundRect[i].br(), Scalar(0, 255, 6), 5);
+			//
 		}
 	}
 
